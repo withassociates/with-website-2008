@@ -1,0 +1,282 @@
+@import url("/stylesheets/standard.css");
+
+body {
+	background: #B8B7B7;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.8125em;
+	color: #423F3F;
+}
+
+#container {
+	border-top: 5px solid #423F3F;
+	padding: 30px 32px;
+}
+
+.content {
+	width: 343px;
+}
+
+.clearafter:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearafter {
+	display: inline-block;
+}
+
+* html .clearafter {
+	height: 1%;
+}
+
+.vcard {
+	margin: 30px 0;
+}
+
+.vcard span {
+	display: block;
+}
+
+h1 {
+	margin: 0 0 30px;
+	border-bottom: 1px solid #D9D9D9;
+	padding: 0 3px 30px;
+}
+
+h2 {
+	font-size: 1.167em;
+}
+
+p {
+	margin-top: 1em;
+	padding: 0 3px;
+}
+
+p.first {
+	margin-top: 0;
+}
+
+a {
+	color: #423F3F;
+	padding: 2px;
+	background: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #423F3F;
+	padding: 2px;
+	color: #FFF;
+}
+
+#map {
+	position: absolute;
+	top: 5px;
+	left: 410px;
+	color: #000;
+}
+
+#map p {
+	padding: 0;
+}
+
+#map a {
+	background: none;
+	padding: 0;
+	color: #00C;
+	text-decoration: underline;
+}
+
+#grid {
+	padding: 30px 3px 19px;
+	margin: 30px 0 0;
+	border-top: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+#grid li {
+	display: inline;
+}
+
+#grid li a {
+	padding: 0;
+	width: 45px;
+	height: 50px;
+	display: block;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-right: 11px;
+	margin-bottom: 11px;
+	float: left;
+	text-indent: -999px;
+	border: 1px solid #D9D9D9;
+}
+
+#grid li a:hover {
+	background-position: -45px 0;
+}
+
+#grid li#project1 a {
+	background-image: URL(/images/theatrestrust.jpg);
+}
+
+#grid li#project2 a {
+	background-image: URL(/images/venue-elior.jpg);
+}
+
+#grid li#project3 a {
+	background-image: URL(/images/deepapanchamia.jpg);
+}
+
+#grid li#project4 a {
+	background-image: URL(/images/passageofmusic.jpg);
+}
+
+#grid li#project5 a {
+	background-image: URL(/images/rareselection.jpg);
+}
+
+#grid li#project6 a {
+	background-image: URL(/images/supper-club.jpg);
+}
+
+#grid li#project7 a {
+	background-image: URL(/images/heathermarchcasting.jpg);
+}
+
+#grid li#project8 a {
+	background-image: URL(/images/onward.jpg);
+}
+
+#grid li#project9 a {
+	background-image: URL(/images/yoyoceramics.jpg);
+}
+
+#grid li#project10 a {
+	background-image: URL(/images/in-public.jpg);
+}
+
+#grid li#project11 a {
+	background-image: URL(/images/minibook.jpg);
+}
+
+#grid li#project12 a {
+	background-image: URL(/images/justiceforall.jpg);
+}
+
+#grid li#project13 a {
+	background-image: URL(/images/balconyjump.jpg);
+}
+
+#grid li#project14 a {
+	background-image: URL(/images/benwinston.jpg);
+}
+
+#grid li#project15 a {
+	background-image: URL(/images/menschdvd.jpg);
+}
+
+#grid li#project16 a {
+	background-image: URL(/images/dirtbikesupply.jpg);
+}
+
+#grid li#project17 a {
+	background-image: URL(/images/shp.jpg);
+}
+
+#grid li#project18 a {
+	background-image: URL(/images/geenee.jpg);
+}
+
+#grid li#project19 a {
+	background-image: URL(/images/vertical.jpg);
+}
+
+#grid li#project20 a {
+	background-image: URL(/images/ed.jpg);
+}
+
+#grid li#project21 a {
+	background-image: URL(/images/sam.jpg);
+}
+
+#grid li#project22 a {
+	background-image: URL(/images/diy.jpg);
+}
+
+#grid li#project23 a {
+	background-image: URL(/images/if.jpg);
+}
+
+#grid li#project24 a {
+	background-image: URL(/images/options.jpg);
+}
+
+#grid li#project25 a {
+	background-image: URL(/images/wsw.gif);
+}
+
+#grid li#project26 a {
+	background-image: URL(/images/ids.gif);
+}
+
+#grid li#project27 a {
+	background-image: URL(/images/art.gif);
+}
+
+#grid li#project28 a {
+	background-image: URL(/images/mss.gif);
+}
+
+#grid li#project29 a {
+	background-image: URL(/images/ccd.gif);
+}
+
+#grid li#project30 a {
+	background-image: URL(/images/brp.gif);
+}
+
+#grid li#project31 a {
+	background-image: URL(/images/vitsoe.gif);
+}
+
+#grid li#project32 a {
+	background-image: URL(/images/staceyyates.gif);
+}
+
+#grid li#project33 a {
+	background-image: URL(/images/jamescuddy.gif);
+}
+
+#grid li#project34 a {
+	background-image: URL(/images/hudsonbec.gif);
+}
+
+#grid li#project35 a {
+	background-image: URL(/images/hhh.gif);
+}
+
+#grid li#project36 a {
+	background-image: URL(/images/arc.gif);
+}
+
+#grid li.last a {
+	margin-right: 0;
+}
+
+#previoussites {
+	margin: 0;
+	padding: 30px 3px;
+	border-top: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	width: 337px;
+}
+
+#previoussites li {
+	float: left;
+	width: auto;
+	margin-right: 6px;
+}

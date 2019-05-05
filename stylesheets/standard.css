@@ -1,0 +1,91 @@
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+ul, dl
+{
+    margin: 0px 0px 1em 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative; /*Disappearing background on li*/
+}
+
+ol
+{
+    margin: 0px 0px 1em 22px;
+    padding: 0px 0px 0px 0px;
+}
+
+ul li
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+dl dt, dl dd
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.ulinline li
+{
+    display: inline;
+}
+
+hr
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+
+img
+{
+    border-width: 0px;
+}
+
+.clearer
+{
+    clear: both;
+    margin: -5px 0px 0px 0px;
+    padding: 0px;
+    height: 5px;
+}
+
+fieldset
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+form
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+input, textarea
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Sans-Serif;
+	font-size:100%
+}
+
+.spacer{
+	height:15px;
+}
+
+:-moz-any-link:focus {
+  outline: none;
+}
